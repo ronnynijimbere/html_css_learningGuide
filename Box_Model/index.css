@@ -1,0 +1,32 @@
+.block-link {
+  display: block;
+}
+
+.inline-block-link {
+  display: inline-block;
+  width: 50px;
+  border-top: 3px solid #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.hidden-element {
+  display: none;
+}
+
+.element {
+  margin: 12px 10px 5px 20px;
+  border: solid 2px;
+  padding: 12px 10px 5px 20px;
+}
+
+.fixed-width-box {
+  width: 49%;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: lightgrey;
+}
+
+.first-box {
+  padding: 20px;
+  border: solid 1px;
+}

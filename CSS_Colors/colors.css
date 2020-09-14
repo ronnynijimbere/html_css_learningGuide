@@ -1,0 +1,53 @@
+.colors {
+  background-color: rgb(0, 255, 0);
+}
+
+/* HLS example */
+
+/*
+p:nth-child(2) {
+  background-color: hsl(0, 100%, 50%);
+}
+
+p:nth-child(3) {
+  background-color: hsl(240, 100%, 50%);
+}*/
+
+/* RGBA & HSLA example */
+/*
+p {
+  height: 50px;
+  width: 350px;
+}
+
+p:nth-child(2) {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+p:nth-child(3) {
+  background-color: hsla(240, 100%, 50%, 0.5);
+}*/
+
+/* HEX Example */
+
+/* p:nth-child(2) {
+  background-color: #ff0000;
+}
+
+p:nth-child(3) {
+  background-color: #0000ff;
+} */
+
+/*opacity example */
+/* Red with RGBA */
+p:nth-child(2) {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+/* Red with opacity */
+
+p:nth-child(3) {
+  background-color: rgb(255, 0, 0);
+
+  opacity: 0.5;
+}

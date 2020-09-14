@@ -1,0 +1,8 @@
+.fixed-position {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  padding: 10px;
+  background-color: #e74c3c;
+  color: #fff;
+}
