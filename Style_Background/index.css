@@ -1,0 +1,13 @@
+div {
+  background-color: #16a085;
+  padding: 15px;
+}
+
+.my-background {
+  height: 500px;
+  width: 500px;
+  background-image: url("https://static.commonlounge.com/fp/600w/gTW2eC7gJEyONzBgrsGxhZLFP1520497419_kc");
+  background-repeat: no-repeat;
+  /* background-position: 50% 0; */
+  background-size: contain;
+}
