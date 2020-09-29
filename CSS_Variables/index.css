@@ -1,0 +1,71 @@
+/* .container {
+  --color: #447589;
+} */
+
+/* 'color' variable is defined under the container class scope*/
+
+/* .container p {
+  border: 2px solid var(--color);
+} */
+
+/* All p tags that are children of elements with the container class have access to the 'color' variable */
+
+/* Variable Access var() function */
+/* :root {
+  --site-theme-color: #9dd8e6;
+}
+
+.header {
+  background-color: gray;
+  padding: 20px;
+  margin: 20px;
+  height: 20%;
+}
+
+.body {
+  color: white;
+  background-color: var(--site-theme-color);
+  padding: 20px;
+  margin: 20px;
+  height: 70%;
+}
+
+.footer {
+  color: white;
+  background-color: var(--site-theme-color);
+  padding: 20px;
+  margin: 20px;
+} */
+
+/* Variable Access calc() function */
+/* :root {
+  --height: 500px;
+} */
+
+/* .containerA {
+  border: 2px solid black;
+  height: var(--height); 
+} */
+/*replaced with value of height variable: 500px */
+
+/* .containerB {
+  border: 2px solid black;
+  height: calc(var(--height) * 2); 
+} */
+/* 1000px */
+
+/*Cascade and Inheritance rules*/
+:root {
+  --color: blue;
+}
+
+div {
+  --color: gray;
+}
+
+#container {
+  --color: gold;
+}
+* {
+  color: var(--color);
+}
