@@ -1,0 +1,11 @@
+img {
+  float: left;
+}
+
+p {
+  float: right;
+}
+
+footer {
+  clear: both;
+}

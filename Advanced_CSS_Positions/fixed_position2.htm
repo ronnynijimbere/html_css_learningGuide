@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positioning Fixed Example 2</title>
+    <style>
+      div.header {
+        background: #808080;
+        top: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+      }
+
+      div.element1 {
+        position: static;
+        background: #ff0000;
+      }
+
+      div.element2 {
+        position: static;
+        background: #808080;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">Fixed header</div>
+
+    <div class="element1">Element 1</div>
+
+    <div class="element2">Element 2</div>
+  </body>
+</html>
