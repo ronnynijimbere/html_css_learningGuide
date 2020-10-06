@@ -1,0 +1,15 @@
+body {
+  width: 100%;
+}
+
+/* div > p {
+  background-color: yellow;
+} */
+
+p ~ h1 {
+  color: red;
+}
+
+a:hover {
+  color: gray;
+}
